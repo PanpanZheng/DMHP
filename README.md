@@ -13,7 +13,6 @@ Python version
 
 ## DateSet
 
-For experiments, we evaluate **OCAN** on two real-world datasets: wiki and credit-card which have been attached in folder [data/](https://github.com/PanpanZheng/OCAN/tree/master/data).
 
 ## Model Evaluation
 
