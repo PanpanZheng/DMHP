@@ -5,10 +5,8 @@ In this paper, we develop an unsupervised framework for insider threat detection
 
 ## Running Environment
 
-Python version
-
 ```
-1. python 3.7.3 
+1. python version: 3.7.3 
 ```
 
 ## DateSet
