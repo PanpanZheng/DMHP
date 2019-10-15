@@ -29,6 +29,4 @@ Python version
 I am very glad that you could visit this github and check my research work. If it benefits your work, please refer this work by
 
 
-## Acknowledgments 
-
-Appreciate it greatly for every labmate in [**SAIL lab**](https://sail.uark.edu/)
+## Acknowledgments
