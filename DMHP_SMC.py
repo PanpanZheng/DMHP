@@ -275,12 +275,12 @@ def parse_activity_2_event(activity, vocabulary_size):
 	event = Event(index, timestamp, type.astype(int))
 	return event
 
-def SMC(usrid, _lambda_0):
+def SMC(usrid, _lambda_0, root_path):
 
 	if usrid in ["ACM2278", "CMP2946", "PLJ1771", "CDE1846", "MBG3183"]:
-		streaming = np.load("./raw_input/time_activity_%s.npy"%usrid)
+		streaming = np.load("%s/InsiderData/time_activity_%s.npy"%(root_path, usrid))
 	else:
-		streaming = np.load("./raw_input/time_activity_%s.npy"%usrid)
+		streaming = np.load("%s/NormalData/time_activity_%s.npy"%(root_path, usrid))
 
 	activities = []
 	for i, _activity in enumerate(streaming):
